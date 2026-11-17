@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Читальня & Книжкова полиця — Кавʼярня «Не спи»</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom Project Styles -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  
+</head>
+<body>
+
+  <!-- Navigation -->
+  <!-- Top Notice Info Bar -->
+<div class="top-notice-bar d-none d-md-block">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center gap-3">
+      <span>📍 <strong>Тернопіль</strong>, просп. Злуки, 7</span>
+      <span>🕒 Пн–Пт: 08:00–19:00 | Сб–Нд: 10:00–19:00</span>
+      <span>🐕 Dog-friendly</span>
+    </div>
+    <div class="d-flex align-items-center gap-3">
+      <a href="tel:+380987227615" class="text-white text-decoration-none">📞 098 722 7615</a>
+      <a href="https://www.instagram.com/dont_sleep_te/" target="_blank" rel="noopener" class="text-white text-decoration-none opacity-75 hover-opacity-100">
+        📸 @dont_sleep_te
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Main Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html">
+      <span class="fs-4">☕📖</span>
+      <div>
+        <span class="neon-text">НЕ СПИ</span>
+        <div style="font-size: 0.65rem; font-weight: 500; letter-spacing: 1.5px; opacity: 0.8; text-transform: uppercase;">
+          пий • читай • мрій
+        </div>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Перемикач навігації">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " href="./index.html">Головна</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./menu.html">Меню</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./books.html">Читальня</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./about.html">Про простір</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./contact.html">Контакти & Мапа</a>
+        </li>
+      </ul>
+      <div class="d-flex align-items-center gap-2">
+        <a href="https://share.google/36gUkgX45i0AzfQJK" target="_blank" rel="noopener" class="btn btn-outline-custom btn-sm d-none d-xl-inline">
+          ⭐ Google 4.9
+        </a>
+        <a href="./reservation.html" class="btn btn-primary-custom btn-sm">
+          Забронювати столик
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Messages / Notifications -->
+  
+
+  <!-- Main Content -->
+  <main>
+    
+<div class="container py-5">
+  <div class="text-center mb-5">
+    <span class="badge badge-moss px-3 py-2 mb-2">Читальня «Не спи» 📚✨</span>
+    <h1 class="fw-bold">Книги, що надихають</h1>
+    <p class="text-muted max-w-600 mx-auto">
+      Олег Шелетин любив читати та мріяв створити простір, де кожен знайде свою книгу. У нашій читальні можна вільно брати книги з полиць для читання за столиком, обмінюватися ними або придбати новинку до власної бібліотеки.
+    </p>
+  </div>
+
+  <!-- Rules / Info Cards -->
+  <div class="row g-4 mb-5">
+    <div class="col-md-4">
+      <div class="p-4 bg-white rounded-4 border card-custom h-100">
+        <div class="fs-1 mb-2">🛋️</div>
+        <h5 class="fw-bold">Читай у залі</h5>
+        <p class="text-muted small mb-0">Будь-яку книгу з відкритої полиці читальні можна взяти до свого столика та насолоджуватися нею з філіжанкою гарячої кави.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-4 bg-white rounded-4 border card-custom h-100">
+        <div class="fs-1 mb-2">🎁</div>
+        <h5 class="fw-bold">Купуй додому</h5>
+        <p class="text-muted small mb-0">Частина книг є новими виданнями українських видавництв, які можна придбати собі або на подарунок близькій людині.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-4 bg-white rounded-4 border card-custom h-100">
+        <div class="fs-1 mb-2">🔄</div>
+        <h5 class="fw-bold">Буккросинг</h5>
+        <p class="text-muted small mb-0">Приносьте прочитану цікаву книгу та обмінюйте її на іншу з нашої полиці обміну. Даруємо книгам друге життя!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Genre Filter Pills -->
+  <div class="d-flex justify-content-center flex-wrap gap-2 mb-5">
+    <a href="./books.html" class="btn btn-sm btn-dark rounded-pill px-4 py-2">
+      Всі жанри
+    </a>
+    
+      <a href="/books/?genre=fiction"
+         class="btn btn-sm btn-outline-secondary rounded-pill px-4 py-2">
+        Художня література
+      </a>
+    
+      <a href="/books/?genre=fantasy"
+         class="btn btn-sm btn-outline-secondary rounded-pill px-4 py-2">
+        Фентезі та фантастика
+      </a>
+    
+      <a href="/books/?genre=history"
+         class="btn btn-sm btn-outline-secondary rounded-pill px-4 py-2">
+        Історія та біографії
+      </a>
+    
+      <a href="/books/?genre=psychology"
+         class="btn btn-sm btn-outline-secondary rounded-pill px-4 py-2">
+        Психологія та саморозвиток
+      </a>
+    
+      <a href="/books/?genre=poetry"
+         class="btn btn-sm btn-outline-secondary rounded-pill px-4 py-2">
+        Поезія
+      </a>
+    
+      <a href="/books/?genre=children"
+         class="btn btn-sm btn-outline-secondary rounded-pill px-4 py-2">
+        Дитяча література
+      </a>
+    
+  </div>
+
+  <!-- Books Grid -->
+  
+    <div class="row g-4">
+      
+        <div class="col-lg-3 col-md-6">
+          <div class="card card-custom h-100">
+            <div class="book-cover-placeholder">
+              <span class="fs-1 mb-2">📖</span>
+              <strong class="text-white text-center">Атомні звички</strong>
+              <small class="text-white-50 mt-1">Джеймс Клір</small>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-light text-secondary border small">Психологія та саморозвиток</span>
+                
+                  <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle">Читальня</span>
+                
+              </div>
+              <p class="card-text text-muted small flex-grow-1 mt-2">
+                Практичне керівництво про те, як крихітні зміни приводять до визначних результатів у житті.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-lg-3 col-md-6">
+          <div class="card card-custom h-100">
+            <div class="book-cover-placeholder">
+              <span class="fs-1 mb-2">📖</span>
+              <strong class="text-white text-center">Тигролови</strong>
+              <small class="text-white-50 mt-1">Іван Багряний</small>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-light text-secondary border small">Художня література</span>
+                
+                  <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle">Читальня</span>
+                
+              </div>
+              <p class="card-text text-muted small flex-grow-1 mt-2">
+                Класичний пригодницький роман про незламність українського духу та боротьбу за свободу.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-lg-3 col-md-6">
+          <div class="card card-custom h-100">
+            <div class="book-cover-placeholder">
+              <span class="fs-1 mb-2">📖</span>
+              <strong class="text-white text-center">Четверте крило</strong>
+              <small class="text-white-50 mt-1">Ребекка Яррос</small>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-light text-secondary border small">Фентезі та фантастика</span>
+                
+                  <span class="badge bg-success-subtle text-success border border-success-subtle">На продаж</span>
+                
+              </div>
+              <p class="card-text text-muted small flex-grow-1 mt-2">
+                Захопливий світовий бестселер про драконів, відвагу, кохання та виживання у військовій академії Басґіат.
+              </p>
+              
+                <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top">
+                  <span class="small text-muted">Ціна:</span>
+                  <span class="fw-bold text-dark fs-5">450,00 ₴</span>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-lg-3 col-md-6">
+          <div class="card card-custom h-100">
+            <div class="book-cover-placeholder">
+              <span class="fs-1 mb-2">📖</span>
+              <strong class="text-white text-center">Я бачу, вас цікавить пітьма</strong>
+              <small class="text-white-50 mt-1">Ілларіон Павлюк</small>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-light text-secondary border small">Художня література</span>
+                
+                  <span class="badge bg-success-subtle text-success border border-success-subtle">На продаж</span>
+                
+              </div>
+              <p class="card-text text-muted small flex-grow-1 mt-2">
+                Психологічний трилер і детектив про київського кримінального психолога у селищі Буськів Сад.
+              </p>
+              
+                <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top">
+                  <span class="small text-muted">Ціна:</span>
+                  <span class="fw-bold text-dark fs-5">400,00 ₴</span>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  
+</div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <span class="fs-3">☕📖</span>
+          <div>
+            <h5 class="text-white fw-bold mb-0">Кавʼярня-книгарня «Не спи»</h5>
+            <small class="text-muted text-uppercase" style="letter-spacing: 1px;">пий • читай • мрій</small>
+          </div>
+        </div>
+        <p class="small text-muted mb-3">
+          Затишний міський простір у Тернополі зі справжнім характером та душею. Відбірна кава, книжкові полиці, настільні ігри, свіжі десерти та тепла атмосфера, створена з любов’ю.
+        </p>
+        <div class="d-flex align-items-center gap-2 small">
+          <span class="badge badge-moss">🐕 Dog-friendly (чекаємо з улюбленцями!)</span>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <h6 class="text-white fw-bold text-uppercase mb-3" style="letter-spacing: 1px;">Локація & Години роботи</h6>
+        <p class="small mb-1">
+          <strong>📍 Адреса:</strong> м. Тернопіль, проспект Злуки, 7
+        </p>
+        <p class="small mb-1">
+          <strong>🕒 Понеділок – Пʼятниця:</strong> 08:00 – 19:00
+        </p>
+        <p class="small mb-1">
+          <strong>🕒 Субота – Неділя:</strong> 10:00 – 19:00
+        </p>
+        <p class="small mb-1">
+          <strong>📞 Телефон:</strong> <a href="tel:+380987227615" class="fw-bold">+38 (098) 722-76-15</a>
+        </p>
+        <div class="mt-2">
+          <a href="https://share.google/36gUkgX45i0AzfQJK" target="_blank" rel="noopener" class="small text-decoration-none">
+            ⭐ Рейтинг Google: <strong>4.9 / 5</strong> (19 відгуків) &rarr;
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <h6 class="text-white fw-bold text-uppercase mb-3" style="letter-spacing: 1px;">Ми в соцмережах</h6>
+        <p class="small text-muted mb-3">
+          Слідкуйте за книжковими новинками, сезонним меню та затишними подіями в нашому Instagram:
+        </p>
+        <a href="https://www.instagram.com/dont_sleep_te/" target="_blank" rel="noopener" class="btn btn-outline-light btn-sm d-inline-flex align-items-center gap-2 mb-3">
+          <span>📸</span> @dont_sleep_te у Instagram
+        </a>
+        <div class="border-top border-secondary pt-3 mt-1">
+          <p class="small text-muted mb-0">
+            Створено як втілення мрії українського воїна Олега Шелетина («Дуб»). Справа живе, надихає та зігріває серця. 🇺🇦
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-secondary my-4">
+    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center small text-muted">
+      <span>&copy; 2026 Кавʼярня-книгарня «Не спи» (Тернопіль). Всі права захищено. &bull; <a href="./crm.html" class="text-secondary text-decoration-none small">Вхід у CRM 🔒</a></span>
+      <span>З теплом до кожної сторінки та філіжанки кави ☕📚</span>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="./assets/js/main.js"></script>
+  
+  
+</body>
+</html>
